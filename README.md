@@ -30,7 +30,7 @@ OPTIONS:
     -h, --help                      Print help information
     -i, --security-ids <ID>...      Output records only corresponding to these security IDs
     -o, --output <FILE>             Sets output file name [default: STDOUT]
-        --output-format <FORMAT>    Sets output format [default: jsonl] [possible 										values: jsonl,csv]
+        --output-format <FORMAT>    Sets output format [default: jsonl] [possible values: jsonl,csv]
     -V, --version
 ```
 
