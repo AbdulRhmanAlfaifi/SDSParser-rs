@@ -34,6 +34,41 @@ OPTIONS:
     -V, --version
 ```
 
+## Example Record
+```json
+{
+  "hash": 855557835,
+  "id": 256,
+  "security_descriptor": {
+    "owner_sid": "S-1-5-18",
+    "group_sid": "S-1-5-32-544",
+    "dacl": {
+      "revision": 2,
+      "count": 2,
+      "entries": [
+        {
+          "ace_type": "ACCESS_ALLOWED",
+          "ace_flags": "(empty)",
+          "data": {
+            "access_rights": 1179785,
+            "sid": "S-1-5-18"
+          }
+        },
+        {
+          "ace_type": "ACCESS_ALLOWED",
+          "ace_flags": "(empty)",
+          "data": {
+            "access_rights": 1179785,
+            "sid": "S-1-5-32-544"
+          }
+        }
+      ]
+    },
+    "sacl": null
+  }
+}
+```
+
 ## References
 
 * https://github.com/libyal/libfsntfs/blob/main/documentation/New%20Technologies%20File%20System%20(NTFS).asciidoc#access_control
