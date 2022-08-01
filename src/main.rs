@@ -14,6 +14,7 @@ macro_rules! init_args {
             .arg(
                 Arg::new("secure_file")
                     .value_name("SECURE_FILE")
+                    .required(true)
                     .help("$Secure:$SDS file path"),
             )
             .arg(
