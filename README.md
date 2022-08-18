@@ -2,6 +2,8 @@
 
 This tool is a parser for NTFS file system `$Secure:$SDS` stream.
 
+Python bindings: https://github.com/AbdulRhmanAlfaifi/SDSParser-py
+
 ## Library Usage
 
 ```rust
