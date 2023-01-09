@@ -1,6 +1,6 @@
 # SDSParser
 
-This tool is a parser for NTFS file system `$Secure:$SDS` stream.
+This tool is a parser for NTFS file system `$Secure:$SDS` stream. For more details in regards to $SDS artifact you can read my blog 📝 : https://u0041.co/blog/post/5
 
 Python bindings: https://github.com/AbdulRhmanAlfaifi/SDSParser-py
 
